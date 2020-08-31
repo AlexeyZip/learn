@@ -38,6 +38,3 @@
 // const output2 = logPerson `Имя: ${personName}, Возраст: ${personAge -100} !`
 
 // console.log(output2);
-
-
-

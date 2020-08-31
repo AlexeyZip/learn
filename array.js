@@ -44,7 +44,7 @@
 // // const upperCaseCars = cars.map(car => {
 // //     return car.toUpperCase()
 // // })
-// // const pow2 = num => num ** 2
+// // const pow2 = num => num ** 2\D\D
 // // const sqrt = num => Math.sqrt(num)
 
 // // const pow2Fib = fib.map(pow2).map(Math.sqrt)

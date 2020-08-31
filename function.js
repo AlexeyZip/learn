@@ -10,7 +10,6 @@
 // // greet('Lena')
 // // greet2('Nastia')
 
-
 // // Анонимные
 // let counter = 0
 // const interval = setInterval(function() {
@@ -21,7 +20,6 @@
 //     }
 //     console.log(++counter);
 // }, 900)
-
 
 // Стрелочные
 // const arrow = (name) => {
@@ -34,14 +32,13 @@
 // }
 // console.log(pow2(5));
 
-
 // Параметры по умолчанию
 // const sum = (a, b) => a + b
 // console.log(sum(10, 12));
 // function sumAll(...all) {
 //     let result = 0
 //     for (let num of all) {
-//         result += num
+//         result += num\D
 //     }
 //     return result
 // }
@@ -49,13 +46,12 @@
 // const res = sumAll(1, 2, 3, 4, 5, 6, 7)
 // console.log(res);
 
-
 // Замыкания
 function createMember(name) {
-    return function(lastName) {
-        console.log(name + lastName);
-    }
+  return function (lastName) {
+    console.log(name + lastName);
+  };
 }
 
-const logWithLastName = createMember('Alex ')
-console.log(logWithLastName('Zaporozchenko'));
+const logWithLastName = createMember("Alex ");
+console.log(logWithLastName("Zaporozchenko"));

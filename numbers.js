@@ -1,7 +1,6 @@
-// const num = 42 
+// const num = 42
 // const float = 42.42
 // const pow = 10e3
-
 
 // console.log('MAX_SAFE_INTEGER', Number.MAX_SAFE_INTEGER);
 // console.log('Math.pow 53', Math.pow(2, 53) - 1);
@@ -29,7 +28,6 @@
 // console.log(+(.4 + .2).toFixed(1));
 // console.log(parseFloat((.4 + .2).toFixed(1)));
 
-
 // BitInt
 // console.log(9007199254740991999n - 9007199254740991n);
 // console.log(-9007199254740991999n);
@@ -53,9 +51,8 @@
 // console.log(Math.ceil(4.3));
 // console.log(Math.random());
 
-
 function getRandomBetween(min, max) {
-    return Math.floor(Math.random() * (max - min + 1) + min)
+  return Math.floor(Math.random() * (max - min + 1) + min);
 }
 
 console.log(getRandomBetween(10, 42));
